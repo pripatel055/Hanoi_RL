@@ -1,0 +1,9 @@
+name: zero_shot
+pairs:
+  - [2, 3]
+  - [3, 4]
+  - [4, 5]
+  - [5, 6]
+algorithms: [dqn, a2c, ppo]
+seeds: [11, 23, 47]
+eval_episodes: 100

@@ -1,0 +1,17 @@
+name: dqn
+policy: MlpPolicy
+learning_rate: 0.0003
+buffer_size: 50000
+learning_starts: 1000
+batch_size: 64
+gamma: 0.99
+train_freq: 4
+target_update_interval: 500
+exploration_fraction: 0.3
+exploration_final_eps: 0.05
+total_timesteps: 100000
+evaluation_episodes: 50
+eval_freq: 5000
+seed: 11
+policy_kwargs:
+  net_arch: [128, 128]

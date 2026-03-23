@@ -1,0 +1,11 @@
+name: TowerOfHanoi-v0
+n_disks: 3
+n_max: 6
+source_peg: 0
+auxiliary_peg: 1
+target_peg: 2
+step_limit_multiplier: 3
+reward:
+  goal_reward: 20.0
+  step_penalty: -0.1
+  invalid_move_penalty: -1.0

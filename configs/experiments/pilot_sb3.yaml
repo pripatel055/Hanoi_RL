@@ -1,0 +1,9 @@
+name: pilot_sb3
+algorithms: [dqn, a2c, ppo]
+disk_counts: [2, 3]
+total_timesteps: [5000, 15000]
+seeds: [11, 23]
+evaluation_episodes: 20
+eval_freq: 1000
+success_threshold: 0.9
+output_dir: outputs/logs/pilot_sb3
