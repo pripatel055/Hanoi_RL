@@ -20,3 +20,7 @@ outputs/trajectories/*
 !outputs/figures/.gitkeep
 !outputs/tables/.gitkeep
 !outputs/trajectories/.gitkeep
+
+IMPLEMENTATION_PLAN.md
+DISSERTATION_PROJECT_PLAN.md
+
